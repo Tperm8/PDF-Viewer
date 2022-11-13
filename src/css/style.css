@@ -1,0 +1,38 @@
+*{
+  /* "*" is used to set the styling of the whole page at once. */
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar{
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.btn{
+  background: coral;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.7rem 2rem;
+}
+
+.btn:hover{
+  opacity: 0.9;
+}
+
+.fas fa-arrow-circle-right{
+  margin-left: 10px;
+}
+
+.page-info{
+  margin-left: 1rem;
+}
+
+.error{
+  background: orangered;
+  color: #fff;
+  padding: 1 rem;
+}

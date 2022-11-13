@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF Viewer</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+
+    <!-- Linking the stylesheet of FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+  </head>
+
+  <body>
+    <div class="top-bar">
+      <button class="btn" id="prev-page">
+        <i class="fas fa-arrow-circle-left" style="margin-right: 10px"></i>Prev
+        Page
+      </button>
+
+      <button class="btn" id="next-page">
+        Next Page<i
+          class="fas fa-arrow-circle-right"
+          aria-hidden="true"
+          style="margin-left: 10px"
+        ></i>
+      </button>
+
+
+      <!-- Page X Of Y Format Styling -->
+      <span class="page-info"
+        >Page <span id="page-num"> of <span id="page-count"></span></span
+      ></span>
+    </div>
+
+    <canvas id="pdf-render"></canvas>
+
+
+    <!-- Font Awesome Kit Code for various Icons -->
+    <script
+      src="https://kit.fontawesome.com/c162c78a92.js"
+      crossorigin="anonymous"
+    ></script>
+
+    
+    <!-- Including the script for PDF.js from the github page of MOZILLA/PDF.js -->
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+    <script src="src/javascript/main.js"></script>
+  </body>
+</html>
