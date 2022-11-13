@@ -1,5 +1,4 @@
 // Path of the PDF
-
 const url = "../../docs/sample.pdf"; // We use ../ to come outside of a folder while linking/ assigning a file from another folder to an url
 
 
